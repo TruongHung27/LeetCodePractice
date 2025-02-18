@@ -1,4 +1,5 @@
 ﻿using System;
+using LeetCodePractice.Problems;
 
 namespace CodeTesting
 {
@@ -6,14 +7,11 @@ namespace CodeTesting
     {
         static void Main(string[] args)
         {
-            int[] nums1 = new int[] { 1, 2, 3, 0, 0, 0 };
-            var m = 3;
-            int[] nums2 = new int[] { 2, 5, 6 };
-            var n = 3;
+            int[] nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
 
-            Merged_Sorted_Array_88 problem88 = new Merged_Sorted_Array_88();
+            Remove_Duplicates_From_Sorted_Array_26 problem26 = new Remove_Duplicates_From_Sorted_Array_26();
 
-            problem88.Merge(nums1,m,nums2,n);
+            problem26.RemoveDuplicates(nums);
         }
     }
 }
