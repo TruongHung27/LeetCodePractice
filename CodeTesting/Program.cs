@@ -7,11 +7,12 @@ namespace CodeTesting
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 0, 0, 1, 1, 1, 1, 2, 3, 3};
+            int[] nums = new int[] { 7, 1, 5, 3 ,7 ,4};
+            int[] nums2 = new int[] { 2,4,1};
 
-            Remove_Duplicates_From_Sorted_Array_2_80 problem = new Remove_Duplicates_From_Sorted_Array_2_80();
+            Best_Time_To_Buy_and_Sell_Stock_121 problem = new Best_Time_To_Buy_and_Sell_Stock_121();
 
-            problem.RemoveDuplicates(nums);
+            problem.MaxProfit(nums);
         }
     }
 }
