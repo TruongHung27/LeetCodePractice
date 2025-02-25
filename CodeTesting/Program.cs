@@ -10,9 +10,11 @@ namespace CodeTesting
             int[] nums = new int[] { 7, 1, 5, 3 ,7 ,4};
             int[] nums2 = new int[] { 2,4,1};
 
-            Best_Time_To_Buy_and_Sell_Stock_121 problem = new Best_Time_To_Buy_and_Sell_Stock_121();
+            string s = "a ";
 
-            problem.MaxProfit(nums);
+            Length_of_last_word_58 problem = new Length_of_last_word_58();
+
+            problem.LengthOfLastWord(s);
         }
     }
 }
