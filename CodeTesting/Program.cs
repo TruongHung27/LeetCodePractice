@@ -11,11 +11,11 @@ namespace CodeTesting
             int[] nums2 = new int[] { 2,4,1};
 
             string s = "a ";
-            string haystack = "adbutsad", needle = "bob";
+            string haystack = "sadbutsad", needle = "sad";
 
             First_Occurance_In_String_28 problem= new First_Occurance_In_String_28();
 
-            problem.StrStr(haystack,needle);
+            problem.StrStr_Improved(haystack,needle);
         }
     }
 }
