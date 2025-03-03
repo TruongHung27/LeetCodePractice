@@ -12,7 +12,7 @@ namespace LeetCodePractice.Problems
 
             int pointer1 = prices[0];
             int profit = 0;
-            
+
             for(int pointer2 = 1; pointer2 < prices.Length; pointer2++)
             {
                 int currentProfit = prices[pointer2] - pointer1;
