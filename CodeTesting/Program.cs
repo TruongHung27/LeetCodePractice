@@ -7,16 +7,16 @@ namespace CodeTesting
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] {1, 2, 3, 4, 5, 6, 7};
+            int[] nums = new int[] {2, 3, 1, 1, 4};
             int[] nums2 = new int[] { 2, 4, 1 };
             int[] prices = new int[] {7, 1, 5, 3, 6, 4};
 
             string s = "a ";
             string haystack = "sadbutsad", needle = "sad";
 
-            Rotate_Array_189 problem= new Rotate_Array_189();
+            Jump_Game_55 problem= new Jump_Game_55();
 
-            problem.Rotate(nums,3);
+            problem.CanJump(nums);
         }
     }
 }
