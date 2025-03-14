@@ -15,9 +15,11 @@ namespace CodeTesting
             string s = "a ";
             string haystack = "sadbutsad", needle = "sad";
 
-            H_Index_274 problem= new H_Index_274();
+            Integer_To_Roman_12 problem = new Integer_To_Roman_12();
 
-            problem.HIndex(nums);
+            int i = 3749;
+
+            problem.IntToRoman(i);
         }
     }
 }
