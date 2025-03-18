@@ -12,14 +12,14 @@ namespace CodeTesting
             int[] prices = new int[] {7, 1, 5, 3, 6, 4};
             int[] ciations = new int[] { 3, 0, 6, 1, 5 };
 
-            string s = "a ";
+            string s = "the sky is blue";
             string haystack = "sadbutsad", needle = "sad";
 
-            Gas_Station_134 problem = new Gas_Station_134();
+            Reverse_Words_in_String_151 problem = new Reverse_Words_in_String_151();
 
             int i = 3749;
 
-            problem.CanCompleteCircuit(nums,nums2);
+            problem.ReverseWords(s);
         }
     }
 }
