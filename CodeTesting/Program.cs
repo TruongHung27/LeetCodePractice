@@ -12,14 +12,14 @@ namespace CodeTesting
             int[] prices = new int[] {7, 1, 5, 3, 6, 4};
             int[] ciations = new int[] { 3, 0, 6, 1, 5 };
 
-            string s = "PAYPALISHIRING";
+            string s = "A man, a plan, a canal: Panama";
             string haystack = "sadbutsad", needle = "sad";
 
-            ZigZag_Conversion_6 problem = new ZigZag_Conversion_6();
+            Valid_Palindrome_125 problem = new Valid_Palindrome_125();
 
             int i = 3749;
 
-            problem.Convert(s,3);
+            problem.IsPalindrome(s);
         }
     }
 }
