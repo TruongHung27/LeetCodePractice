@@ -9,12 +9,12 @@ namespace LeetCodePractice.Problems
         public int RomanToInt(string s)
         {
             var total = 0;
-            for(int i = 0; i < s.Length; i++)
+            for (int i = 0; i < s.Length; i++)
             {
-                switch(s[i])
+                switch (s[i])
                 {
                     case 'I':
-                        if(i != s.Length - 1)
+                        if (i != s.Length - 1)
                         {
                             if (s[i + 1] == 'V')
                             {
@@ -43,7 +43,7 @@ namespace LeetCodePractice.Problems
                         break;
 
                     case 'X':
-                        if(i != s.Length - 1)
+                        if (i != s.Length - 1)
                         {
                             if (s[i + 1] == 'L')
                             {
@@ -71,12 +71,12 @@ namespace LeetCodePractice.Problems
 
                     case 'L':
 
-                        total+= 50;
+                        total += 50;
                         break;
 
                     case 'C':
 
-                        if(i != s.Length - 1)
+                        if (i != s.Length - 1)
                         {
                             if (s[i + 1] == 'D')
                             {

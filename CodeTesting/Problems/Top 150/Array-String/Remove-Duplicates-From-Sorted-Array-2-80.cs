@@ -17,24 +17,24 @@ namespace LeetCodePractice.Problems
             int p1 = 0;
             int dupCounter = 0;
 
-            for(int p2 = 0; p2 < nums.Length;p2++)
+            for (int p2 = 0; p2 < nums.Length; p2++)
             {
-                if(p2 == 5)
+                if (p2 == 5)
                 {
                     Console.WriteLine(p2);
                 }
-                
-                if(dupCounter == 2 && nums[p2] != nums[p1 - 1])
+
+                if (dupCounter == 2 && nums[p2] != nums[p1 - 1])
                 {
                     dupCounter = 0;
                 }
 
-                if(dupCounter == 1 && nums[p2] != nums[p2 - 1])
+                if (dupCounter == 1 && nums[p2] != nums[p2 - 1])
                 {
                     dupCounter = 0;
                 }
 
-                if(nums[p2] >= nums[p1] && dupCounter < 2)
+                if (nums[p2] >= nums[p1] && dupCounter < 2)
                 {
                     nums[p1] = nums[p2];
                     p1++;
@@ -59,7 +59,7 @@ namespace LeetCodePractice.Problems
 
             for (int p2 = 2; p2 < nums.Length; p2++)
             {
-                if(nums[p2] != nums[p1 - 2])
+                if (nums[p2] != nums[p1 - 2])
                 {
                     nums[p1] = nums[p2];
                     p1++;
